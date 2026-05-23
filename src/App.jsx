@@ -10,11 +10,13 @@ export default function App() {
   return (
     <main className="min-h-screen bg-[#05070d] text-white">
       <Hero />
-      <MovingGrid />
-      <MovingVideoGrid />
       <StoryPanels />
-      <BuildGuide />
+      <MovingGrid />
       <FinalCTA />
+      
+      <MovingVideoGrid />      
+      <BuildGuide />
+      
       <Moving />
     </main>
   );

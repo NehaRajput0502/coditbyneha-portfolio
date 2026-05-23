@@ -35,7 +35,9 @@ export default function Hero() {
         </motion.h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/70">
-          A cinematic personal website with video grids, animations, responsive design, and modern UI.
+          Codit by Neha is focused on practical digital solutions that solve real problems.
+          {/* Codit by Neha is focused on practical digital solutions - responsive design, modern UI, systems, automation, AI workflows and web experiences that solve real problems. */}
+
         </p>
 
         <a

@@ -22,7 +22,7 @@ export default function Hero() {
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-5 py-2 backdrop-blur-xl"
         >
           <Sparkles size={16} />
-          Dynamic Demo
+          CoditByNeha
         </motion.div>
 
         <motion.h1
@@ -35,7 +35,7 @@ export default function Hero() {
         </motion.h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/70">
-          Codit by Neha is focused on practical digital solutions that solve real problems.
+          Focused on Practical Digital Solutions that solve Real Problems.
           {/* Codit by Neha is focused on practical digital solutions - responsive design, modern UI, systems, automation, AI workflows and web experiences that solve real problems. */}
 
         </p>

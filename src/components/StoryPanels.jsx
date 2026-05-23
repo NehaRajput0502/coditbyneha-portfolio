@@ -41,7 +41,7 @@ export default function StoryPanels() {
             </p>
 
             <h2 className="mt-3 max-w-3xl text-4xl font-black leading-tight tracking-[-0.04em] text-white sm:text-6xl">
-              Python + AI + Video Editing
+              Coding + AI + Creative
             </h2>
           </div>
 

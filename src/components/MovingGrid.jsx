@@ -6,25 +6,25 @@ const steps = [
     label: "01",
     title: "Understand the idea",
     text: "First we show what problem we are solving with a strong visual background.",
-    video: "/videos/grid-1.mp4",
+    video: "/videos/idea.mp4",
   },
   {
     label: "02",
     title: "Design the system",
     text: "Then the video shifts and text explains the process, logic, and user flow.",
-    video: "/videos/grid-2.mp4",
+    video: "/videos/design.mp4",
   },
   {
     label: "03",
     title: "Build the experience",
     text: "Next section shows implementation, animation, responsive layout, and interaction.",
-    video: "/videos/grid-3.mp4",
+    video: "/videos/build.mp4",
   },
   {
     label: "04",
     title: "Launch and improve",
     text: "Final point explains deployment, testing, and future upgrades.",
-    video: "/videos/grid-4.mp4",
+    video: "/videos/launch.mp4",
   },
 ];
 
@@ -40,6 +40,16 @@ export default function MovingGrid() {
 
   return (
     <section ref={ref} id="grid" className="relative h-[500vh] bg-[#05070d]">
+              {/* Section Heading */}
+        <div className="pointer-events-none absolute left-0 top-8 z-30 w-full px-6 text-left">
+  <p className="text-xs font-bold uppercase tracking-[0.35em] text-blue-300/80">
+    Development Workflow
+  </p>
+
+  <h2 className="mt-3 max-w-3xl text-3xl font-black tracking-[-0.04em] text-white sm:text-5xl">
+    Idea to Launch
+  </h2>
+</div>
       <div className="sticky top-0 h-screen overflow-hidden">
         <motion.div style={{ x }} className="flex h-full w-[400vw]">
           {steps.map((step) => (

@@ -61,24 +61,24 @@ export default function MovingVideoGrid() {
         </svg>
 
         {/* Row 1 */}
-        <VideoBlock video="/videos/grid-1.mp4" className="left-[0vw] top-[20vh] w-[45vw] h-[34vh]" />
+        <VideoBlock video="/videos/des.mp4" className="left-[0vw] top-[20vh] w-[45vw] h-[34vh]" />
         <TextBlock title="Design with motion" text="Each section moves like a visual journey." className="left-[45vw] top-[20vh] w-[35vw] h-[34vh]" />
-        <VideoBlock video="/videos/grid-2.mp4" className="left-[80vw] top-[20vh] w-[45vw] h-[34vh]" />
+        <VideoBlock video="/videos/launch.mp4" className="left-[80vw] top-[20vh] w-[45vw] h-[34vh]" />
 
         {/* Row 2 */}
         <TextBlock title="Dynamic flow" text="Left to right, down, right, up — like a 3D website path." className="left-[0vw] top-[54vh] w-[38vw] h-[34vh]" />
-        <VideoBlock video="/videos/grid-3.mp4" className="left-[38vw] top-[54vh] w-[42vw] h-[34vh]" />
+        <VideoBlock video="/videos/idea.mp4" className="left-[38vw] top-[54vh] w-[42vw] h-[34vh]" />
         <TextBlock title="Every point visible" text="Video, heading and data appear inside each motion block." className="left-[80vw] top-[54vh] w-[40vw] h-[34vh]" />
 
         {/* Row 3 */}
-        <VideoBlock video="/videos/grid-4.mp4" className="left-[0vw] top-[88vh] w-[42vw] h-[34vh]" />
+        <VideoBlock video="/videos/hero.mp4" className="left-[0vw] top-[88vh] w-[42vw] h-[34vh]" />
         <TextBlock title="Cinematic website" text="Not static cards — full moving canvas experience." className="left-[42vw] top-[88vh] w-[38vw] h-[34vh]" />
-        <VideoBlock video="/videos/grid-1.mp4" className="left-[80vw] top-[88vh] w-[46vw] h-[34vh]" />
+        <VideoBlock video="/videos/build.mp4" className="left-[80vw] top-[88vh] w-[46vw] h-[34vh]" />
 
         {/* Row 4 */}
         <TextBlock title="Responsive idea" text="On mobile it remains visual, clean and scrollable." className="left-[12vw] top-[122vh] w-[38vw] h-[34vh]" />
-        <VideoBlock video="/videos/grid-2.mp4" className="left-[50vw] top-[122vh] w-[45vw] h-[34vh]" />
-        <VideoBlock video="/videos/grid-3.mp4" className="left-[95vw] top-[122vh] w-[45vw] h-[34vh]" />
+        <VideoBlock video="/videos/idea.mp4" className="left-[50vw] top-[122vh] w-[45vw] h-[34vh]" />
+        <VideoBlock video="/videos/hero.mp4" className="left-[95vw] top-[122vh] w-[45vw] h-[34vh]" />
       </motion.div>
 
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_35%,#05070d_82%)]" />
